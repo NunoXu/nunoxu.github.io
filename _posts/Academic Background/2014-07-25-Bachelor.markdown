@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 5
+date: 2014-09-06
+category: Academic
+academic-date: Sep 2011 - Jul 2014
+academic-title: Bachelor’s degree in Information Systems and Computer Engineering
+description: Finished with an average of 15.77 out of 20.
+
+---

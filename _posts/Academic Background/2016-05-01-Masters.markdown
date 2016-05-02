@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2016-05-01
+category: Academic
+academic-date: Sep 2014 - Oct 2016 (Under Way)
+academic-title: Master’s degree in Information Systems and Computer Engineering
+description: Currently finished 90 out of 120 ECTS. Only Thesis left.<br>Current Weighted Average&#58; 17.53 out of 20.
+
+---
