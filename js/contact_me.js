@@ -18,7 +18,6 @@ $(function() {
                 url: "https://formspree.io/nuno.xu@gmail.com",
                 type: "POST",
                 data: $('#contactForm').serialize(),
-                cache: false,
                 beforeSend: function() {
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -46,11 +45,12 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that the mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
+                timeout: 5000 // sets timeout to 5 seconds
             })
         },
         filter: function() {
