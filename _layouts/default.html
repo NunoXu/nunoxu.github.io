@@ -2,22 +2,24 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include pro_background.html %}
-    {% include aca_background.html %}
+        <div style="overflow-x:hidden">
+            {% include nav.html %}
+            {% include header.html %}
+            {% include portfolio_grid.html %}
+            {% include pro_background.html %}
+            {% include aca_background.html %}
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
+            {% if site.contact == "static" %}
+            {% include contact_static.html %}
+            {% elsif site.contact == "disqus" %}
+            {% include contact_disqus.html %}
+            {% else %}
+            {% include contact.html %}
+            {% endif %}
 
-    
-    {% include modals.html %}
-    {% include js.html %}
+
+            {% include modals.html %}
+            {% include js.html %}
+        </div>
     </body>
 </html>
