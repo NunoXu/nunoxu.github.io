@@ -29,7 +29,7 @@ $(function() {
                 },
                 success: function(data) {
                     // Success message
-                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success').html("<div class='alert alert-success' style='background-color: #3FAD1C; border-color: #4E9A14;'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')

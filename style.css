@@ -210,6 +210,7 @@ section.success {
     background: #06A4C7;
 }
 
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
