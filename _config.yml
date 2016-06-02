@@ -62,5 +62,5 @@ downloads:
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
