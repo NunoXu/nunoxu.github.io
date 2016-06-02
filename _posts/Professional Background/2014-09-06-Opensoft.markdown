@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-09-06
+category: Professional
+img: ThisReligionIsTooSmallForTwoProphets.png
+alt: image-alt
+employ-date: Jul 2014 - Sep 2014
+employ-title: Intern@Opensoft
+description: Development and release of a SIMN application update <a href="http://www.opensoft.pt/simn/" target ="_blank">http://www.opensoft.pt/simn/</a>.<br>Integration of a new SIMN module and upgrade of internal tools.
+
+---
