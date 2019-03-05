@@ -1,10 +1,12 @@
 ---
 layout: default
-modal-id: 4
+modal-id: 201
 date: 2015-10-06
 category: Professional
 employ-date: Jul 2015 - Oct 2015
 employ-title: Intern@Unbabel
-description: Research and development of fluency detection in natural text.<br>Development of the game Wordtap for linguistic editor evaluation.
-
+description: 
+ <div>Research and development of fluency detection in natural text.</div>
+ <div>Development of the game Wordtap for linguistic editor evaluation.</div>
+ <div>Used <b>Python</b> and <b>Flask</b>.</div>
 ---

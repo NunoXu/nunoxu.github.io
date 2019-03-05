@@ -1,10 +1,16 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 202
 date: 2014-09-06
 category: Professional
 employ-date: Jul 2014 - Sep 2014
 employ-title: Intern@Opensoft
-description: Development and release of a SIMN application update <a href="http://www.opensoft.pt/simn/" target ="_blank">http://www.opensoft.pt/simn/</a>.<br>Integration of a new SIMN module and upgrade of internal tools.
+description: 
+  <div>
+    Development and release of a <a href="http://www.opensoft.pt/simn/" target="_blank" rel="noopener noreferrer"><b>SIMN</b></a> application update, using <b>Java</b> and <b>SQL</b> for the application, and <b>GWT</b> for the auto-update platform.
+  </div>
+  <div>
+    Update of <a href="http://www.opensoft.pt/simn/" target="_blank" rel="noopener noreferrer"><b>SIMN</b></a> build tools from <b>Ant</b> to <b>Maven</b>.
+  </div>
 
 ---
