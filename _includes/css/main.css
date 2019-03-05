@@ -19,8 +19,7 @@ p.small {
 a,
 a:hover,
 a:focus,
-a:active,
-a.active {
+a:active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
@@ -117,9 +116,36 @@ header .page-descr .page-descr-text {
     text-align: left;
 }
 
+header .page-descr .page-descr-text b {
+    color: #ffdf82;
+    border-color: #ffdf82;
+}
+
+
+header .page-descr .page-descr-text a {
+    color: #ffdf82;
+    border-color: #ffdf82;
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
+
+header .page-descr .page-descr-text a:hover,
+header .page-descr .page-descr-text a:focus {
+    color: #f9f0d5;
+    border-color: #f9f0d5;
+} 
+
 header .page-descr .page-descr-btn {
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+header a,
+header a:hover,
+header a:focus,
+header a.active {
+    color: #fff;
 }
 
 @media(min-width:768px) {
