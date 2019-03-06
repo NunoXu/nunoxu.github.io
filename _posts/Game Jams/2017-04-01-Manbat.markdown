@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: manbat
+date: 2016-04-01
+category: GameJams
+img: manbat.jpg
+alt: Manbat
+for: 
+    name: Global Game Jam 2017
+    url: https://globalgamejam.org/2017/games/manbat
+download:
+    url: https://ggj.s3.amazonaws.com/games/2017/01/22/1549/executables.zip
+    source: https://ggj.s3.amazonaws.com/games/2017/01/22/1519/manbat.zip
+description: 
+ A 2D side-scroller where you see by making sound.<br>
+ Made in Unity.<br><br>
+ Controls&#58;<br>
+ Keyboard&#58; Arrows -> to move | Space bar -> press to jump, hold to jump higher | Shift + Arrows -> to run<br>
+ Xbox Controler&#58; Analog Stick -> to move | A -> jump | X -> run
+
+---

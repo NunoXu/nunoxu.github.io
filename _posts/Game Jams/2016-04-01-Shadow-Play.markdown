@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 101
+modal-id: shadowplay
 date: 2016-04-01
-category: Projects
+category: GameJams
 img: shadowplay.jpg
-alt: image-alt
+alt: shadowplay
 project-date: April 2016
 for: 
     name: Ludum Dare 35

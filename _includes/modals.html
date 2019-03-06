@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    {% if post.categories contains 'Projects' %}
+    {% if post.categories contains 'Projects' or post.categories contains 'GameJams' %}
         <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -16,7 +16,8 @@
                                 <h2>{{ post.title }}</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                                <!--<div id="projectCarousel" class="carousel slide " data-ride="carousel">
+                                <!--
+                                    <div id="projectCarousel" class="carousel slide " data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
 
@@ -36,17 +37,35 @@
                                       <i class="fa fa-chevron-right" aria-hidden="right"></i>
                                       <span class="sr-only">Next</span>
                                     </a>
-                                </div>-->
+                                </div>
+                                -->
 
                                 <p>{{ post.description }}</p>
-                                {% if post.download.url.size %}
+                                {% if post.download.size %}
                                     <ul class="list-inline">
+                                        {% if post.download.url.size %}
                                         <li>
                                             <a href="{{ post.download.url }}" class="btn btn-primary btn-primary" download><i class="fa fa-download"></i> Download</a>
                                         </li>
+                                        {% endif %}
                                         {% if post.download.source.size %}
                                         <li>
                                             <a href="{{ post.download.source }}" class="btn btn-primary btn-primary"><i class="fa fa-code"></i> Source</a>
+                                        </li>
+                                        {% endif %}
+                                        {% if post.download.page.size %}
+                                        <li>
+                                            <a href="{{ post.download.page }}" class="btn btn-primary btn-primary"><i class="fa fa-home"></i> Page</a>
+                                        </li>
+                                        {% endif %}
+                                        {% if post.download.android.size %}
+                                        <li>
+                                            <a href="{{ post.android.page }}" class="btn btn-primary btn-primary"><i class="fa fa-android"></i> Android</a>
+                                        </li>
+                                        {% endif %}
+                                        {% if post.download.ios.size %}
+                                        <li>
+                                            <a href="{{ post.ios.page }}" class="btn btn-primary btn-primary"><i class="fa fa-apple"></i> iOS</a>
                                         </li>
                                         {% endif %}
                                     </ul>
@@ -56,10 +75,13 @@
                                         <strong><a href="{{ post.for.url }}">{{ post.for.name }}</a>
                                         </strong>
                                     </li>
+                                    
+                                    {% if post.project-date.size %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
+                                    {% endif %}
                                 </ul>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
