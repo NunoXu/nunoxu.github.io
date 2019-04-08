@@ -17,5 +17,5 @@ description:
  Each player starts 7 Cultured tiles, for every Incorrect answer, one tile will fall to Idiocracy. Every 5 Correct answers, will recover 1 tile to Cultured.<br>
  The first player to let all 7 tiles fall to Idiocracy loses.<br>
  
- Made in Unity.<br><br>
+ Made in <b>Unity</b>.<br><br>
 ---

@@ -1,40 +1,27 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 col-lg-5">
-                    <img class="img-responsive" src="img/profile.png" alt="Photo" width="330px">
-                    <div class="intro-text">
+            <div class="header_row">
+                <img class="img-responsive foto" src="img/profile.png" alt="Photo" width="250px">
+                <div class="intro-text">
+                    <div class="skills_container"> 
                         <span class="name">{{ site.title }}</span>
-                        <hr class="star-light">
-                        <span class="skills">{{ site.skills }}</span>
+                        <span class="skills">Sofware Engineer<br>@ <a href="https://www.chilltime.com/" target="_blank" rel="noopener noreferrer">Chilltime</a></span>
                     </div>
                 </div>
-                <div class="col-sm-7 col-lg-7">
-                    <div class="intro-text page-descr">
-                        <p class="page-descr-text">
-                            Hi! I'm a <b>Software Engineer</b>
-                            working at <a href="https://www.chilltime.com/" target="_blank" rel="noopener noreferrer">Chilltime</a>,
-                            using <b>Unity</b>, <b>React</b> and <b>PHP</b>.
-                        </p>
-                        <p class="page-descr-text">
-                            Below you will find some of my previous and current projects, as well as my work and educational background.
-                        </p>
-                        <p class="page-descr-text">
-                            And feel free to download my CV.
-                        </p>
-                        <a href="/downloads/CV.pdf" class="btn btn-lg btn-outline page-descr-btn" download>
-                            <i class="fa fa-download"></i> Download CV
-                        </a>
-                        
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                <div class="button-section">
+                    <a href="/downloads/CV.pdf" class="btn btn-md btn-outline " download>
+                        <i class="fa fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="social-section">
+                    <ul class="list-inline">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>

@@ -45,34 +45,34 @@
                                     <ul class="list-inline">
                                         {% if post.download.url.size %}
                                         <li>
-                                            <a href="{{ post.download.url }}" class="btn btn-primary btn-primary" download><i class="fa fa-download"></i> Download</a>
+                                            <a href="{{ post.download.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary" download><i class="fa fa-download"></i> Download</a>
                                         </li>
                                         {% endif %}
                                         {% if post.download.source.size %}
                                         <li>
-                                            <a href="{{ post.download.source }}" class="btn btn-primary btn-primary"><i class="fa fa-code"></i> Source</a>
+                                            <a href="{{ post.download.source }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary"><i class="fa fa-code"></i> Source</a>
                                         </li>
                                         {% endif %}
                                         {% if post.download.page.size %}
                                         <li>
-                                            <a href="{{ post.download.page }}" class="btn btn-primary btn-primary"><i class="fa fa-home"></i> Page</a>
+                                            <a href="{{ post.download.page }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary"><i class="fa fa-home"></i> Page</a>
                                         </li>
                                         {% endif %}
                                         {% if post.download.android.size %}
                                         <li>
-                                            <a href="{{ post.android.page }}" class="btn btn-primary btn-primary"><i class="fa fa-android"></i> Android</a>
+                                            <a href="{{ post.download.android }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary"><i class="fa fa-android"></i> Android</a>
                                         </li>
                                         {% endif %}
                                         {% if post.download.ios.size %}
                                         <li>
-                                            <a href="{{ post.ios.page }}" class="btn btn-primary btn-primary"><i class="fa fa-apple"></i> iOS</a>
+                                            <a href="{{ post.download.ios }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary"><i class="fa fa-apple"></i> iOS</a>
                                         </li>
                                         {% endif %}
                                     </ul>
                                 {% endif %}
                                 <ul class="list-inline item-details">
                                     <li>For:
-                                        <strong><a href="{{ post.for.url }}">{{ post.for.name }}</a>
+                                        <strong><a href="{{ post.for.url }}" target="_blank" rel="noopener noreferrer" >{{ post.for.name }}</a>
                                         </strong>
                                     </li>
                                     

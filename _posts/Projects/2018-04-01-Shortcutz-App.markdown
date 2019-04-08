@@ -14,6 +14,6 @@ download:
     ios: https://itunes.apple.com/us/app/shortcutz/id1432002791
 description: 
  A social network app for <a href="https://shortcutznetwork.com/about-us/" target="_blank" rel="noopener noreferrer">SHORTCUTZ NETWORK</a>, a collection of regular short film screenings, taking place around the world.<br>
- App developed in React Native.<br>
- Website developed in React and Backend developed with PHP and MySQL.
+ App developed in <b>React Native</b>.<br>
+ Website developed in <b>React</b> and Backend developed with <b>PHP</b> and <b>MySQL</b>.
 ---

@@ -13,7 +13,7 @@ download:
     source: https://ggj.s3.amazonaws.com/games/2017/01/22/1519/manbat.zip
 description: 
  A 2D side-scroller where you see by making sound.<br>
- Made in Unity.<br><br>
+ Made in <b>Unity</b>.<br><br>
  Controls&#58;<br>
  Keyboard&#58; Arrows -> to move | Space bar -> press to jump, hold to jump higher | Shift + Arrows -> to run<br>
  Xbox Controler&#58; Analog Stick -> to move | A -> jump | X -> run
