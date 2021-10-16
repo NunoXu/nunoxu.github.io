@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 203
+date: 2021-10-06
+category: Professional
+employ-date: July 2019 - Present
+employ-title: Unity Engineer@Hutch
+description:
+  <div>
+    Worked on client side development for <a href="https://www.hutch.io/our-games/rebel-racing/target="_blank" rel="noopener noreferrer"><b>Rebel Racing</b></a> - an arcade racing game for <b>Android</b> and <b>iOS</b>, released in <b>Nov 2019</b>}.
+    <ul>
+      <li>Generalist development, working in all client side aspects of the game, ranging from gameplay and UI, to tools and library integration.</li>
+      <li>Took implementation ownership of multiple features, coordinating with other departments to make sure features get shipped.</li>
+      <li>Stood in design and planning sessions as the client tech representative.</li>
+    </ul>
+  </div>
+  <div>Created project agnostic libraries, used in other games across the studio.</div>
+---
