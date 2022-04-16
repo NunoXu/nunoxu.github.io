@@ -15,7 +15,11 @@
                             <div class="modal-body">
                                 <h2>{{ post.title }}</h2>
                                 <hr class="star-primary">
+                                {% if post.youtube-embed %}
+                                <iframe width="800" height="450" src="{{ post.youtube-embed }}" title="YouTube trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                {% else %}
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                {% endif %}
                                 <!--
                                     <div id="projectCarousel" class="carousel slide " data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">

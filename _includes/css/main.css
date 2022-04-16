@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #{{ site.color.background }};
 }
 
 p {
@@ -21,7 +22,7 @@ a:hover,
 a:focus,
 a:active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -351,7 +352,7 @@ section.success {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .floating-label-form-group input,
@@ -533,7 +534,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.primary }} !important;
 }
 
 /* Fix modal mouse wheel issues */

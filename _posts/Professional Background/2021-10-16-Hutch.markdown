@@ -4,15 +4,15 @@ modal-id: 203
 date: 2021-10-06
 category: Professional
 employ-date: July 2019 - Present
-employ-title: Unity Engineer@Hutch
+employ-title: Senior Unity Engineer@Hutch
 description:
   <div>
-    Worked on client side development for <a href="https://www.hutch.io/our-games/rebel-racing/" target="_blank" rel="noopener noreferrer"><b>Rebel Racing</b></a> - an arcade racing game for <b>Android</b> and <b>iOS</b>, released in <b>Nov 2019</b>.
+    Worked on client side development for <a href="https://www.hutch.io/our-games/rebel-racing/" target="_blank" rel="noopener noreferrer"><b>Rebel Racing</b></a> - an arcade racing game for <b>Android</b> and <b>iOS</b>, originally launched in <b>Nov 2019</b> with frequent content updates up to present day.
     <ul>
-      <li>Did <b>generalist</b> development, working in all client side aspects of the game, ranging from gameplay and UI, to tools and library integration.</li>
-      <li>Took <b>implementation ownership</b> of multiple features, coordinating with other departments to make sure features get shipped.</li>
-      <li>Stood in design and planning sessions as the client tech representative.</li>
+      <li>Did <b>generalist</b> development, working in all client side aspects of the game, ranging from gameplay and UI, to tools, library integration and build pipeline.</li>
+      <li>Took <b>ownership</b> of multiple features, coordinating with other departments to make sure work gets shipped.</li>
+      <li>Stood as <b>tech stakeholder</b> during design sessions.</li>
     </ul>
   </div>
-  <div>Created project agnostic libraries, used in other games across the studio.</div>
+  <div>Created project agnostic libraries, used in games across the studio, such as web socket integration and player groups (guild/clubs).</div>
 ---
