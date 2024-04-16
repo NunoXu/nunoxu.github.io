@@ -3,7 +3,7 @@ layout: default
 modal-id: 200
 date: 2016-12-06
 category: Professional
-employ-date: Dec 2016 - July 2019
+employ-date: Dec 2016 - July 2019 (2.5 years)
 employ-title: Software Engineer@Chilltime
 description:
   <div>Continuous development for the web game <a href="https://www.worldwaronline.com/" target="_blank" rel="noopener noreferrer"><b>WWO</b></a> (World War Online), using <b>PHP</b>.</div>

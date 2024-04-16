@@ -3,7 +3,7 @@ layout: default
 modal-id: 201
 date: 2015-10-06
 category: Professional
-employ-date: Jul 2015 - Oct 2015
+employ-date: Jul 2015 - Oct 2015 (2 months) 
 employ-title: Intern@Unbabel
 description: 
  <div>Research and development of fluency detection in natural text.</div>

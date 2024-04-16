@@ -3,7 +3,7 @@ layout: default
 modal-id: 202
 date: 2014-09-06
 category: Professional
-employ-date: Jul 2014 - Sep 2014
+employ-date: Jul 2014 - Sep 2014 (3 months)
 employ-title: Intern@Opensoft
 description: 
   <div>

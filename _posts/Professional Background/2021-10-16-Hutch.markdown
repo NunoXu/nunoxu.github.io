@@ -3,7 +3,7 @@ layout: default
 modal-id: 203
 date: 2021-10-06
 category: Professional
-employ-date: July 2019 - Present
+employ-date: July 2019 - Oct 2022 (2.5 years)
 employ-title: Senior Unity Engineer@Hutch
 description:
   <div>

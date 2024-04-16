@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 204
+date: 2024-04-16
+category: Professional
+employ-date: Oct 2022 - April 2024 (1.5 years)
+employ-title: Associate Lead Engineer@Oxalis
+description:
+  <div><div>Worked in <a href="https://moonfrost.io/" target="_blank" rel="noopener noreferrer"><b>Moonfrost</b></a> - a multiplayer life-sim game inspired in Stardew Valley.     Responsibilities include:</div>
+      <ul>
+        <li>Mentored Lead Engineer and other team members, providing guidance and support in technical and non-technical matters.</li>
+        <li> Handled <b>conflict management</b> between departments, serving as mediator and agenda facilitator when tough decisions had to be made, such as deciding deadlines and project scope disagreements.
+        <li> Co-operated with other departments to establish <b>good communication channels</b>, in the form of workflow guidelines.
+        <li><b>Architecture</b> and implementation of core systems, such as multi-grid environment mapping, editor tooling, crafting and item management.
+      </ul>
+  </div>
+---
